@@ -1,0 +1,97 @@
+.owl-carousel .item {
+  max-width: 215px;
+}
+
+.clients h2 {
+  margin:76px auto 64px auto;
+}
+
+.clients {
+  overflow: auto;
+  text-align: center;
+}
+
+.client-list {
+  margin-bottom: 92px;
+}
+
+.owl-nav {
+  display: none;
+}
+
+.owl-item.active {
+  max-width: 295px;
+}
+
+.contact-us .phone .icon {
+  width: 25px;
+  height: 25px;
+}
+
+.contact-us .location .icon{
+  width: 28px;
+  height: 33px;
+}
+
+.contact-us .phone div {
+  display: inline-block;
+}
+
+.contact-us .location div:last-of-type {
+  max-width: 206px;
+}
+
+.contact-us .location div {
+  display: inline-block;
+}
+
+.contact-us .icon {
+  margin-right: 19px;
+}
+
+.contact-us .phone {
+  margin: 30px 0 19px 0;
+}
+
+.owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.contact-us .content:after  {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.contact-us .content {
+  margin-top: 90px;
+}
+
+.contact-us .content .data {
+  margin-top: 41px;
+}
+
+.contact-us .content .location {
+  margin-bottom: 35px;
+}
+
+.contact-us .form input {
+  width: 561px;
+  height: 62px;
+  padding-left: 24px;
+}
+
+.contact-us .form input[type="submit"] {
+  width: 182px;
+  height: 60px;
+  text-align: center;
+  padding: 0;
+  margin-top: 27px;
+}
+
+.contact-us .form textarea {
+  width: 561px;
+  height: 310px;
+  padding: 24px 0 0 24px;
+}

@@ -1,0 +1,110 @@
+header nav.navbar {
+  background-color: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: transparent;
+  color: #ff4848;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #ff4848;
+}
+
+.why-us {
+  background-color: #ff4848;
+}
+
+.why-us .description {
+  color: #FFFFFF;
+}
+
+.why-us .description h1 span {
+  color: #2c3e50;
+}
+
+.arrow {
+  background: url("../../images/arrow-down.png") no-repeat center;
+}
+
+.welcome .description {
+  h2,
+  .info {
+    color: #004966;
+  }
+
+  .info span {
+    color: #ff4848;
+
+  }
+}
+
+.we-offer {
+  background-color: #004966;
+  color: white;
+}
+
+.works {
+  nav li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  nav li a:hover,
+  nav li.active a {
+    color: #ff4848;
+    border-bottom: 2px solid #ff4848;
+    cursor: pointer;
+  }
+
+}
+
+.work-item {
+  .type {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.clients h2 {
+  color: white;
+}
+
+.clients {
+  background-color: #ff4848;
+}
+
+.contact-us .phone .icon {
+  background: url("../../images/phone.png") no-repeat center;
+}
+
+.contact-us .location .icon {
+  background: url("../../images/map-marker.png") no-repeat center;
+}
+
+.contact-us {
+  color: white;
+}
+
+.contact-us .form input,
+.contact-us .form textarea {
+  background-color: #f4f4f4;
+}
+
+.contact-us .form input,
+.contact-us .form textarea {
+  color: #777777;
+}
+
+.contact-us .form input[type="submit"] {
+  background-color: #ff4848;
+  border:none;
+  color: white;
+}

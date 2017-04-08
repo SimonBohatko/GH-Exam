@@ -1,0 +1,160 @@
+div.my-container {
+  max-width: 1149px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.why-us .description h1 {
+  margin: 0;
+}
+
+.why-us {
+  overflow: auto;
+}
+
+.why-us .my-container {
+  margin-top: 102px;
+}
+
+.why-us:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.my-container:after,
+.why-us .my-container .content {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.why-us .description {
+  margin-top: 82px;
+}
+
+.why-us .description div:nth-child(2),
+.why-us .description .info {
+  margin-top: 41px;
+}
+
+.arrow {
+  width: 26px;
+  height: 7px;
+  margin: 97px auto 45px auto;
+}
+
+.welcome .description {
+  h2 {
+    margin-top: 123px;
+  }
+  .info {
+    margin-top: 52px;
+  }
+}
+
+.welcome .content {
+  margin-top: 57px;
+}
+
+.we-offer {
+  h2 {
+    margin: 101px 0 0 0;
+  }
+
+  .name {
+    margin: 50px 0 0 0;
+  }
+
+  .descr {
+    margin-top: 17px;
+  }
+
+  .image {
+    max-width: 133px;
+    height: 133px;
+    margin: 0 auto;
+  }
+
+  .description {
+    max-width: 908px;
+    margin: 31px auto 0 auto;
+  }
+
+  .offer-item {
+    max-width: 268px;
+    display: inline-block;
+    margin-right: 100px;
+  }
+
+  .offer-item:last-of-type {
+    margin-right: 0;
+  }
+
+  .offers-list {
+    margin: 95px 0 100px 0;
+  }
+}
+
+.works {
+  h2 {
+    margin: 101px 0 0 0;
+  }
+
+  .name {
+    margin: 50px 0 0 0;
+  }
+
+  .descr {
+    margin-top: 17px;
+  }
+
+  .description {
+    max-width: 908px;
+    margin: 31px auto 0 auto;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 55px 0 35px 0;
+  }
+
+  nav li {
+    display: inline-block;
+    padding-right: 48px;
+  }
+
+  nav li:last-of-type {
+    display: inline-block;
+    padding-right: 0;
+  }
+
+  .work-item {
+    max-width: 366px;
+    height: 332px;
+    position: relative;
+    margin-bottom: 20px;
+
+    .type {
+      position: absolute;
+      top: 50%;
+      text-align: center;
+      width:100%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      display: none;
+    }
+  }
+
+  .work-item:hover .type {
+    display: block;
+  }
+
+  .work-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+}

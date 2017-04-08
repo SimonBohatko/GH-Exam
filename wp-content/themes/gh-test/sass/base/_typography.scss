@@ -1,0 +1,131 @@
+* {
+  font-family: Roboto, 'sans-serif';
+}
+
+.navbar-inverse .navbar-nav > li {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.why-us .description h1 {
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.why-us .description div:nth-child(2) {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.why-us .description div:nth-child(3) {
+  font-size: 30px;
+  font-weight: 400;
+
+  span {
+    font-size: 24px;
+    font-weight: 400;
+  }
+}
+
+.why-us .description .info {
+  font-size: 24px;
+  font-weight: 300;
+
+}
+
+.welcome .description {
+  h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+  h2 span {
+    font-size: 72px;
+  }
+
+  .info {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.we-offer,
+.works {
+  text-align: center;
+  h2 {
+    font-size: 36px;
+    font-weight: 300;
+  }
+  .description {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+  }
+  .offer-item {
+    text-align: center;
+    .name {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+    .descr {
+      font-size: 18px;
+      font-weight: 100;
+      line-height: 24px;
+    }
+  }
+}
+
+.works {
+  nav li {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+}
+
+.work-item {
+  .type {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.clients h2 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.contact-us .info h2,
+.contact-us .info .data {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.contact-us .info .data {
+  font-size: 18px;
+}
+
+.contact-us .form input,
+.contact-us .form textarea {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 24px;
+}
+
+.contact-us .form input[type="submit"] {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
